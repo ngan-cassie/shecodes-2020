@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  height: 530px;
+  background-image: url(https://imgur.com/q9Hq3Ro),
+    linear-gradient(63.78deg, #9bc4cb 10.31%, #001c55 95.64%);
+  background-position: left, right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.text {
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+h2 {
+  width: 700px;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 63px;
+  color: #000000;
+  margin: 0px 0px 25px 0px;
+  text-align: center;
+}
+
+p {
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 35px;
+}
+
+.vaccine {
+  margin-right: 60px;
+  width: 520px;
+  height: 313px;
+  /* left: 734px; */
+  /* top: 222px; */
+  border-radius: 25% 0%;
+}
