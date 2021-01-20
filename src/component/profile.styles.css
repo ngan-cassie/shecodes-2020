@@ -1,0 +1,26 @@
+span {
+  font-weight: 600;
+}
+
+.profile {
+  margin-top: 80px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profile > * {
+  align-self: center;
+}
+.profile h3 {
+}
+.profile img {
+  margin-left: 10px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(211, 209, 209);
+}
+li {
+  margin-left: 40px;
+  margin: 10px;
+}

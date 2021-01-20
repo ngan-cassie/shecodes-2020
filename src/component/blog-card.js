@@ -1,10 +1,9 @@
 import React from "react";
-
+import "./blog-card.styles.css";
 export const Card = (props) => (
   <div className="card-container">
-    <img alt="" src={props.image} />
-
-    <p> {props.caption} </p>
+    <img src={props.image} />
+    <p> {props.caption}</p>
   </div>
 );
 

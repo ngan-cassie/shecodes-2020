@@ -1,0 +1,14 @@
+.blog {
+  padding-top: 100px;
+
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
+
+  justify-content: center;
+}
+.blog > * {
+  justify-self: center;
+}

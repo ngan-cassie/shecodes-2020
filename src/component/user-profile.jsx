@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-
+import Profile from "./profile";
 class User extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <Profile />
+      </div>
+    );
   }
 }
 
