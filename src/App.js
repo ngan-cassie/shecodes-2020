@@ -37,6 +37,7 @@ class App extends Component {
               <NavLink to="/blog" className="item">
                 Blog
               </NavLink>
+
               <NavLink to="/log" className="item btn">
                 Log In
               </NavLink>
